@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
  * Plugin Name:       Image Compressor
