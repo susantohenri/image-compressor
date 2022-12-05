@@ -23,8 +23,6 @@ function enqueue_image_optimizer_scripts()
 	wp_enqueue_style('images-compare-style', 'https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css'/*, , ,$in_footer = false*/);
 	wp_enqueue_style('fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'/*, , ,$in_footer = false*/);
 
-	wp_enqueue_style('image_compare_style_ph4ntomphoton', plugin_dir_url(__FILE__) . '/image-compare/style.css');
-	wp_enqueue_script('image_compare_style_ph4ntomphoton', plugin_dir_url(__FILE__) . '/image-compare/script.js');
 }
 
 function image_compressor_ph4ntomphoton()
@@ -33,6 +31,8 @@ function image_compressor_ph4ntomphoton()
 }
 function image_compressor_shortcode_callback($atts, $content = "")
 {
+	wp_enqueue_style('image_compare_style_ph4ntomphoton', plugin_dir_url(__FILE__) . '/image-compare/style.css');
+	wp_enqueue_script('image_compare_style_ph4ntomphoton', plugin_dir_url(__FILE__) . '/image-compare/script.js');
 	ob_start();
 ?>
 <div class="image-compressor-plugin">
