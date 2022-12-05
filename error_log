@@ -1,0 +1,30 @@
+[16-Oct-2022 08:41:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/image-compressor.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/image-compressor.php on line 7
+[18-Oct-2022 13:21:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/image-compressor.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/image-compressor.php on line 7
+[21-Oct-2022 12:48:33 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/OptimizerChain.php on line 67
+[21-Oct-2022 12:48:33 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: `/home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/uploads/optimized` does not exist in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/Image.php:14
+Stack trace:
+#0 /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/OptimizerChain.php(72): Spatie\ImageOptimizer\Image->__construct('/home/theelect/...')
+#1 /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php(79): Spatie\ImageOptimizer\OptimizerChain->optimize('/home/theelect/...', '/home/theelect/...')
+#2 /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php(130): compressor(Array)
+#3 {main}
+  thrown in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/Image.php on line 14
+[29-Nov-2022 00:22:34 UTC] PHP Notice:  Undefined index: file in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php on line 22
+[29-Nov-2022 00:22:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php on line 22
+[29-Nov-2022 00:22:34 UTC] PHP Notice:  Undefined index: file in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php on line 24
+[29-Nov-2022 00:22:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php on line 24
+[29-Nov-2022 00:22:34 UTC] PHP Notice:  Undefined index: file in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php on line 28
+[29-Nov-2022 00:22:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php on line 28
+[29-Nov-2022 00:22:34 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/OptimizerChain.php on line 67
+[29-Nov-2022 00:22:34 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: `/home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/uploads/optimized` does not exist in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/Image.php:14
+Stack trace:
+#0 /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/OptimizerChain.php(72): Spatie\ImageOptimizer\Image->__construct()
+#1 /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php(79): Spatie\ImageOptimizer\OptimizerChain->optimize()
+#2 /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/upload.php(130): compressor()
+#3 {main}
+  thrown in /home/theelect/ecombusinesshub.com/wp-content/plugins/image-compressor/vendor/spatie/image-optimizer/src/Image.php on line 14
