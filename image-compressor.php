@@ -35,7 +35,7 @@ function image_compressor_shortcode_callback($atts, $content = "")
 {
 	ob_start();
 ?>
-
+<div class="image-compressor-plugin">
 	<script type="text/javascript">
 		Dropzone.autoDiscover = false;
 	</script>
@@ -443,7 +443,7 @@ function image_compressor_shortcode_callback($atts, $content = "")
 
 		});
 	</script>
-
+</div>
 <?php
 	$html = ob_get_clean();
 	return $html;
